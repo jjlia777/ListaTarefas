@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(74,136,212,1) 53%, rgba(89,26,110,1) 100%);
+}
+
+.cadastro {
+    height: 580px;
+    width: 450px;
+    padding: 35px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.722);
+    box-shadow: 6px 26px 51px -17px rgb(0, 0, 0);
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 570;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #650f97, 0 0 30px #650f97, 0 0 40px #650f97, 0 0 55px #650f97, 0 0 75px #650f97, 2px 2px 2px rgba(161,41,167,0), 10px 12px 4px rgba(161,41,167,0);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+#input {
+    margin-left: 20px;
+    padding: 0 5px;
+    height: 35px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    box-shadow: 3px 20px 34px -7px rgba(0,0,0,0.48);
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+
+.sub {
+    margin-left: 20px;
+}
+
+.mensagem {
+    text-align: center;
+}
+
+a {
+    color: #650f97;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+button {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 37%;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #833ebb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  button:hover {
+    background-color: #57217d;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #391b4d;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+
+  
